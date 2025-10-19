@@ -25,7 +25,7 @@ const Index = () => {
     setGeneratedImage(null);
 
     try {
-      const response = await fetch("https://generativeai2006.app.n8n.cloud/webhook-test/n8n", {
+      const response = await fetch("https://generativeai2006.app.n8n.cloud/webhook/n8n", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
